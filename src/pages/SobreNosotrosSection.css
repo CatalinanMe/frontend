@@ -1,0 +1,30 @@
+.containerUs {
+  background-color: #ffffff;
+  max-width: 100%;
+}
+.containerUs img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 550px;
+}
+.containerUs p {
+  font-size: 35px;
+  color: #cacaca;
+  justify-content: center;
+  text-align: center;
+  font-family: Verdana;
+  font-weight: bold;
+  text-shadow: #164110 0.1em 0.1em 0.1em;
+}
+.ContainerTarjetas {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  background-color: #ffffff;
+  max-width: 100%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
