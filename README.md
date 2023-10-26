@@ -2,7 +2,7 @@
 / en construcción 
 
 #Tecnologias usadas:
-React, Vite, Jsx, Css, Html, SpringBoot, Firebase. 
+React, Vite, Jsx, Css, Html, Node.js , SpringBoot, Firebase. 
 
 
 Integrantes: 
