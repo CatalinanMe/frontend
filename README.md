@@ -6,11 +6,11 @@ React, Vite, Jsx, Css, Html, Node.js , SpringBoot, Firebase.
 
 
 Integrantes: 
-Francisca Ruz
-Cristian Jáuregui
-Paula Flores
-Daniela Sobarzo 
-Catalina Maldonado 
+Francisca Ruz,
+Cristian Jáuregui,
+Paula Flores,
+Daniela Sobarzo, 
+Catalina Maldonado.
 
 
 . 
