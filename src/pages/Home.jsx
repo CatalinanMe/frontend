@@ -1,16 +1,14 @@
 import React from "react";
 import "./Home.css";
-import banner from "../images/bannerDEF.png";
 import img1 from "../images/Platanot.png";
 import img2 from "../images/planeta.png";
+import banner2 from "../images/Banner2.png";
 
 export const Home = () => {
   return (
     <div>
       <div className="banner">
-        <img src={banner} alt="banner" />
-        <h1>Bienvenido a Mi Sitio Web</h1>
-        <p>Descubre todo lo que tenemos para ofrecerte.</p>
+        <img src={banner2} alt="banner" />
         <div className="container1">
           <img src={img1} alt="imagen1" />
           <p>

@@ -2,13 +2,15 @@
   background-color: #ffffff;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding-left: 0px;
+  width: 100vw;
+  height: auto;
 }
 
 .banner img {
-  max-width: 100%;
+  width: 100vw;
   height: auto;
-  margin-top: 120px;
+  padding: 0px;
 }
 
 .banner h1 {

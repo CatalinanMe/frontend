@@ -10,13 +10,18 @@
 }
 .containerUs p {
   font-size: 35px;
-  color: #cacaca;
+  color: #ffffff;
   justify-content: center;
   text-align: center;
   font-family: Verdana;
-  font-weight: bold;
-  text-shadow: #164110 0.1em 0.1em 0.1em;
+  text-shadow: #0c4900 0.1em 0.1em 0.2em;
+  background-color: #92d709;
+  border-radius: 60px;
+  width: 70%;
+  margin-left: 300px;
+  padding: 10px;
 }
+
 .ContainerTarjetas {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15%;

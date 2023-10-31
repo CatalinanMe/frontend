@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./component/Navbar";
+import { Footer } from "./component/Footer";
 import {
   Home,
   LoginSection,
@@ -20,6 +21,7 @@ function App() {
         <Route path="/SobreNosotros" element={<SobreNosotrosSection />} />
         <Route path="/Login" element={<LoginSection />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

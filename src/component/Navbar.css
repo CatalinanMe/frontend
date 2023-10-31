@@ -6,18 +6,17 @@ nav {
   top: 0%;
   left: 0%;
   right: 0%;
-  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("../images/bg.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(252, 246, 239);
+  background-size: 100%;
   position: fixed;
-  top: 0;
-  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.2);
+  line-height: 2px;
+  border-width: 1px;
+  border-color: rgb(192, 146, 62);
+  top: 0px;
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 nav .title {
@@ -79,4 +78,33 @@ nav .menu span {
   nav .menu {
     display: flex;
   }
+  nav {
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  nav ul.open {
+    display: flex;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+}
+.fixed-image {
+  position: fixed;
+  bottom: 0;
+  right: 0; /*  Cambiamos 'right' a 'left' para posicionar en la esquina izquierda  */
+}
+
+.fixed-logo {
+  max-width: 80px; /*  Tamaño máximo del logotipo, ajústalo según tus necesidades */
 }
